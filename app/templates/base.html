@@ -15,13 +15,10 @@
 <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="#">Hello</a>
+            <a class="nav-link" href="{{ url_for("main.index")}}">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Hi</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Hola</a>
+            <a class="nav-link" href="{{ url_for("main.signup")}}">Signup</a>
         </li>
     </ul>
 </nav>
